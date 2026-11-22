@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY MEMORIES</title>
+    <style>
+        body{
+            background-color:#b6d0d7;
+            font-family:Arial;
+            text-align:center;
+            margin:0;
+            border:5px solid #120a0a;
+        }
+
+        h1{
+            color:#8b5e3c;
+            margin-top:30px;
+        }
+        p{
+            color:#555;
+        }
+
+        .gallery{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:15px;
+            padding:20px;
+        }
+
+        .gallery img{
+            width:350px;
+            height:350px;
+            object-fit:cover;
+            border-radius:10px;
+            box-shadow:0 4px 8px gray;
+        }
+
+        .gallery img:hover{
+            transform:scale(1.05);
+            transition:transform 0.3s;
+        }
+
+        footer{
+            background-color:#f462da;
+            color:white;
+            padding:15px;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>GALLERY MEMORIES</h1>
+
+    <p style="color:red;">Welcome to our memory gallery!</p>
+
+    <h2>Gallery</h2>
+    <div class="gallery">
+       <a href="satyam.html" target="_blank"><img src="image1.jpeg" alt="Memory 1"></a>
+        <a href="ragini.html" target="_blank"><img src="image2.jpeg" alt="Memory 2"></a>
+        <a href="image3.jpeg" target="_blank"><img src="image3.jpeg" alt="Memory 3"></a>
+        <a href="image4.jpeg" target="_blank"><img src="image4.jpeg" alt="Memory 4"></a>
+        <a href="image5.jpeg" target="_blank"><img src="image5.jpeg" alt="Memory 5"></a>
+        <a href="image6.jpeg" target="_blank"><img src="image6.jpeg" alt="Memory 6"></a>
+        <a href="image7.jpeg" target="_blank"><img src="image7.jpeg" alt="Memory 7"></a>
+        <a href="image8.jpeg" target="_blank"><img src="image8.jpeg" alt="Memory 8"></a>
+        <a href="image9.jpeg" target="_blank"><img src="image9.jpeg" alt="Memory 9"></a>
+    </div>
+    <footer>
+        <p>&copy; 2023 GALLERY MEMORIES. All rights reserved.</p>
+    </footer>
+</body>
+</html>
