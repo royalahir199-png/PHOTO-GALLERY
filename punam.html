@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punam's Photo Gallery</title>
+    <style>
+        body{
+            text-align:center;
+            background-color:bisque;
+        }
+            .gallery{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:15px;
+            padding:20px;
+        }
+        .gallery img{
+            width:350px;
+            height:350px;
+            object-fit:cover;
+            border-radius:10px;
+            box-shadow:0 4px 8px green;
+            cursor:pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to Punam's Photo Gallery</h1>
+    <div class="gallery">
+        <a href="photo.html"><img src="image3.jpeg" alt="Memory 1" class="image"></a>
+        <a href="photo.html"><img src="image5.jpeg" alt="Memory 2" class="image"></a>
+        <a href="photo1.html"><img src="pn1.jpeg" alt="Memory 1" class="image"></a>
+        <a href="photo2.html"><img src="pn2.jpeg" alt="Memory 1" class="image"></a>
+        <a href="photo3.html"><img src="pn3.jpeg" alt="Memory 1" class="image"></a>
+        <a href="photo4.html"><img src="pn4.jpeg" alt="Memory 1" class="image"></a>
+    </div>
+</body>
+</html>
