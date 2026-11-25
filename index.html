@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GALLERY MEMORIES</title>
+    <script>
+if (sessionStorage.getItem("galleryLogin") !== "yes") {
+    window.location.replace("login.html");
+}
+    </script>
     <style>
         body{
             background-color:#b6d0d7;
